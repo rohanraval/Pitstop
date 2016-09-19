@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>About | Pitstop</title>
+    <link rel="stylesheet" type="text/css" href="site.css" />
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="about.js"></script>
+</head>
+
+<body>
+    <!-- Main Header div (inclues logo, navbar, and cover image) -->
+    <div id="mainHeader">
+        <a href="home.html" title="home" id="logo">
+            <img src="images/logoimg.png" />
+        </a>
+
+        <div id=nav>
+            <ul id="navUL">
+              <li><a id="a_home" href="home.html">HOME</a></li>
+              <li><a id="a_vb" href="vehiclebrowser.html">VEHICLE BROWSER</a></li>
+              <li><a id="a_about" href="about.html" class="active">ABOUT</a></li>
+              <li><a id="a_contactus" href="contactus.html">CONTACT US</a></li>
+            </ul>
+        </div>
+
+        <div id="coverImageDiv">
+            <h1>PITSTOP</h1>
+            <p>Find the right car for you.</p>
+        </div>
+
+    </div>
+
+    <!-- aboutContent div -->
+    <div id="aboutContainer">
+        <div id="aboutContent">
+
+            <h2>About Pitstop</h2>
+            <p>
+                Pitstop is a model car dealership company designed by me, Rohan Raval.
+                It was developed as an internship project for Revature, Inc.
+                The idea of the website is to present auto buyers with data about available
+                cars in the local area so they can make a purchase. <br />
+                I have used HTML, CSS, and JavaScript to create the front-end design and
+                functionality of these pages. <br /> Additional technologies such as jQuery,
+                AJAX and JSON were implemented to improve and add functionalities such as the
+                Vehicle Browser, which allows users to select from available vehicles. Information
+                about these vehicles is currently stored as a .txt file, and parsed in as a JSON object.<br /><br />
+                Ongoing revisions on the project include:
+            </p>
+            <ul>
+                <li>Implementation of a proper database structure to store and retrieve inventory
+                    data using MySQL and PHP.</li>
+                <li>Addition of login and sign-up features for customers, wherein customers
+                    can add cars to their individual favorites list. </li>
+                <li>Functionality for sellers to add their cars to the inventory database,
+                    with proper authentication.</li>
+            </ul>
+            <p>Copyright (c) 2016 Rohan Raval All Rights Reserved.</p>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

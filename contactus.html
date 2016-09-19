@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact Us | Pitstop</title>
+    <link rel="stylesheet" type="text/css" href="site.css" />
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="home.js"></script>
+</head>
+
+<body>
+    <!-- Main Header div (inclues logo, navbar, and cover image) -->
+    <div id="mainHeader">
+        <a href="home.html" title="home" id="logo">
+            <img src="images/logoimg.png" />
+        </a>
+
+        <div id=nav>
+            <ul id="navUL">
+              <li><a id="a_home" href="home.html">HOME</a></li>
+              <li><a id="a_vb" href="vehiclebrowser.html">VEHICLE BROWSER</a></li>
+              <li><a id="a_about" href="about.html">ABOUT</a></li>
+              <li><a id="a_contactus" href="contactus.html" class="active">CONTACT US</a></li>
+            </ul>
+        </div>
+
+        <div id="coverImageDiv">
+            <h1>PITSTOP</h1>
+            <p>Find the right car for you.</p>
+        </div>
+
+    </div>
+
+    <!-- contactContent div (includes welcome content and featured deals) -->
+    <div id="contactContainer">
+        <div id="contactContent">
+
+            <h2>Contact Us</h2>
+
+            <form action="MAILTO:someone@example.com" method="post" enctype="text/plain" id="contactForm">
+                <fieldset>
+                    <legend>Send us an Email:</legend>
+                    Name:
+                    <input type="text" name="name"><br />
+                    E-mail Address:
+                    <input type="email" name="mail"><br />
+                    Message:<br />
+                    <textarea name="message" cols="40" rows="10"></textarea>
+                    <br /><br />
+                    <input type="submit" value="Send" id = "sendEmail">
+                    <input type="reset" value="Reset" id = "resetEmail">
+                </fieldset>
+            </form>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

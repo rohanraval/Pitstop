@@ -1,0 +1,380 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: MidnightBlue;
+}
+
+/* mainHeader styling (including logo, navbar, & cover image) */
+
+#mainHeader {
+    width: 100%;
+    height: 410px;
+    margin: 0;
+    padding: 0;
+    border-bottom: 2px solid #121254;
+}
+
+#logo img {
+    position: relative;
+    float:left;
+    left: 10px;
+    top: 10px;
+    width: 200px;
+    border: 8px solid #121254;
+    z-index: 3;
+}
+
+#nav {
+    position: absolute;
+    display: block;
+    padding-left: 20%;
+    width: 80%;
+    background: rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid black;
+    z-index: 2;
+}
+
+#navUL {
+    float: left;
+    position: relative;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*background-color: #121254;*/
+}
+
+#navUL li {
+    float: left;
+}
+
+#navUL li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 68px;
+    text-decoration: none;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: white;
+}
+
+#navUL li a:hover:not(.active) {
+    color: #121254;
+}
+
+.active {
+    color: #121254 !important;
+}
+
+#coverImageDiv {
+    width: 100%;
+    height: 100%;
+    background-image: url('images/topcarimg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#coverImageDiv h1 {
+    position: absolute;
+    width: 250px;
+    top: 10%;
+    left: 30%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.2);
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    font-variant: all-petite-caps;
+    letter-spacing: 4px;
+    color: white;
+    border-top: 5px solid #121254;
+    border-bottom: 2px solid #121254;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 0px 0px 3px 0px;
+}
+
+#coverImageDiv p {
+    position: absolute;
+    width: 250px;
+    top: 16%;
+    left: 30%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.2);
+    font-family: Palatino,"Palatino Linotype",
+    "Palatino LT STD","Book Antiqua",Georgia,serif;
+    font-size: 20px;
+    font-style: oblique;
+    color: white;
+    padding: 10px 0px 5px 0px;
+    border-bottom: 5px solid #121254;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+
+/* home.html content divs styling*/
+
+#mainDiv {
+    font-size: 0;
+    font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif;
+    width: 100%;
+    height: 800px;
+    background-image: url('images/featDealbackgd.jpg');
+    background-size: cover;
+}
+
+#mainDiv > * {
+    width: 100%;
+}
+
+#contentDiv {
+    display: inline-block;
+    padding-top: 20px;
+    height: 280px;
+    background-color: white;
+    border-bottom: 1px solid #121254;
+}
+
+#contentDiv h1, #featDealsDiv h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#contentDiv > p {
+    width: 60%;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+#contentDiv img {
+    float: right;
+    margin-right: 70px;
+    height: 270px;
+    width: 30%;
+}
+
+#contentDiv h1, p, #featDealsDiv h1 {
+    padding-left: 40px;
+    font-weight: normal;
+}
+
+#featDealsDiv {
+    display: inline-block;
+    height: 500px;
+    background: rgba(255, 255, 255, 0.3);
+    border-top: 0px solid #121254;
+}
+
+
+#featDealsDiv p, ul {
+    float: left;
+    width: 60%;
+    margin-top: 20px;
+    padding-left: 100px;
+}
+
+#featDealsDiv p {
+    font-weight: normal;
+}
+
+#featDealsDiv ul {
+    font-size: 18px;
+    list-style-type: none;
+    column-count: 2;
+    font-weight: lighter;
+}
+
+#featDealsDiv img {
+    float: right;
+    margin-right: 120px;
+    width: 20%;
+    height: 100%;
+    border-right: 1px solid #121254;
+    border-left: 1px solid #121254;
+    border-radius: 5px;
+}
+
+#featDeal1, #featDeal2 {
+    background: rgba(255, 255, 255, 0.6);
+    display: inline-block;
+    width: 100%;
+    height: 180px;
+    border: 1px solid #121254;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* about.html aboutContent div styling*/
+#aboutContainer {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif;
+    background-image: url('images/featDealbackgd_crop.jpg');
+    background-size: 100% 100%;
+
+}
+
+#aboutContent {
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+#aboutContent > * {
+    width: 90%;
+    padding-left: 40px;
+}
+
+#aboutContent > h2 {
+    text-align: center;
+    font-weight: normal;
+}
+
+#aboutContent p, ul {
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+#aboutContent > ul {
+    margin-top: 0px;
+    padding-left: 60px;
+    padding-bottom: 60px;
+}
+
+/* vehiclebrowser.html vbContent div styling */
+
+#inputDiv {
+    padding-top: 1px;
+    height: 250px;
+    background-color: white;
+    font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif;
+}
+
+#inputDiv h2 {
+    font-weight: normal;
+    padding-right: 40px;
+    text-align: center;
+}
+
+#inputDiv p {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+#inputForm {
+    padding-top: 20px;
+    text-align: center;
+}
+
+#typeDD, #modelDD {
+    font-size: 20px;
+}
+
+#typeDD {
+    margin-right: 30px;
+}
+
+#button {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+#outputDiv {
+    display: none;
+    height: 500px;
+    background-image: url('images/featDealbackgd_crop.jpg');
+    background-size: cover;
+    border-top: 2px solid #121254;
+    font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif;
+}
+
+#carTable {
+    position: relative;
+    float: right;
+    top: 10%;
+    height: 80%;
+    margin-right: 50px;
+    background: rgba(255, 255, 255, 0.7);
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+#carTable th, td {
+    height: 40px;
+    border: 1px solid black;
+    text-align: left;
+    padding-left: 20px;
+}
+
+#carTable th {
+    width: 160px;
+    font-weight: normal;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+#carTable td {
+    width: 300px;
+    font-weight: lighter;
+}
+
+#carImage {
+    position: relative;
+    float: left;
+    top: 8%;
+    width: 50%;
+    height: 80%;
+    margin-left: 50px;
+    border: 10px solid black;
+}
+
+/* contactus.html contactContent div styling*/
+
+#contactContainer {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif;
+    background-image: url('images/featDealbackgd_crop.jpg');
+    background-size: 100% 100%;
+
+}
+
+#contactContent {
+    position: absolute;
+    text-align: left;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+#contactContent > * {
+    width: 90%;
+    padding-left: 40px;
+}
+
+#contactContent > h2 {
+    text-align: center;
+    font-weight: normal;
+}
+
+#contactContent p {
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+#contactForm {
+    margin: 0px auto;
+    width: 30%;
+}

@@ -1,0 +1,7 @@
+Sedan:Toyota Camry
+Sedan:Toyota Corolla
+Sedan:Honda Accord
+Sedan:Honda Civic
+SUV:Toyota RAV4
+SUV:Honda CRV
+SUV:Honda Pilot

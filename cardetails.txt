@@ -1,0 +1,56 @@
+[{
+	"Type": "Sedan",
+	"Model": "Toyota Camry (LE)",
+	"Year": "2016",
+	"Condition": "New",
+	"Price": "$28,000",
+	"Engine": "178-hp 2.5-liter I-4",
+	"Fuel Economy": "25mpg city / 35mpg hwy",
+	"ImageSrc": "images/camry_2016.jpg",
+	"Owner Name": "John Doe",
+	"Owner Contact": "(123)456-7890"
+}, {
+	"Type": "Sedan",
+	"Model": "Toyota Corolla (S Premium)",
+	"Year": "2016",
+	"Condition": "Used (5000 miles)",
+	"Price": "$21,000",
+	"Engine": "132-hp 1.8-liter I-4",
+	"Fuel Economy": "29mpg city / 37mpg hwy",
+	"ImageSrc": "images/corolla_2016.jpg",
+	"Owner Name": "John Doe",
+	"Owner Contact": "(123)456-7890"
+}, {
+	"Type": "Sedan",
+	"Model": "Honda Accord (Sport)",
+	"Year": "2014",
+	"Condition": "Used (8100 miles)",
+	"Price": "$19,000",
+	"Engine": "189-hp 2.4-liter I-4",
+	"Fuel Economy": "24mpg city / 34mpg hwy",
+	"ImageSrc": "images/accord_2015.jpg",
+	"Owner Name": "John Doe",
+	"Owner Contact": "(123)456-7890"
+}, {
+	"Type": "SUV",
+	"Model": "Honda CR-V (EX-L AWD)",
+	"Year": "2016",
+	"Condition": "New",
+	"Price": "$31,500",
+	"Engine": "185-hp 2.4-liter I-4",
+	"Fuel Economy": "25mpg city / 31mpg hwy",
+	"ImageSrc": "images/crv_2015.jpg",
+	"Owner Name": "John Doe",
+	"Owner Contact": "(123)456-7890"
+}, {
+	"Type": "SUV",
+	"Model": "Toyota Highlander (LE AWD)",
+	"Year": "2016",
+	"Condition": "New",
+	"Price": "$36,000",
+	"Engine": "270-hp 3.5-liter V-6",
+	"Fuel Economy": "18mpg city / 24mpg hwy",
+	"ImageSrc": "images/highlander_2016.jpg",
+	"Owner Name": "John Doe",
+	"Owner Contact": "(123)456-7890"
+}]

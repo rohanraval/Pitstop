@@ -1,0 +1,52 @@
+<!DOCTYPE html!>
+
+<html>
+<head>
+    <title>Dropdown</title>
+    <link rel="stylesheet" type="text/css" href="ddpractice.css" />
+
+        <!-- Include the jQuery Library -->
+    <script src="jquery-2.1.0.min.js"></script>
+
+        <!-- Via CDN -->
+    <!--<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>-->
+
+        <!-- Include our demo file -->
+    <script src="ddpracticeNEW.js"></script>
+
+</head>
+
+<body>
+    <!-- Input Section -->
+    <section>
+        <header>
+            Input Section
+        </header>
+
+        <form action="" id="inputForm">
+            <label>Car Type:</label>
+            <select id="typeDD" style="width:200px">
+                <option disabled selected value="defaultType"> --select type-- </option>
+            </select> <br />
+
+            <label>Car Model:</label>
+            <select id="modelDD" style="width:200px">
+                <option disabled selected value="defaultModel"> --select model-- </option>
+            </select><br />
+            <input type="button" value="Submit" id="button" />
+        </form>
+    </section>
+
+
+    <!-- Output Section -->
+    <section>
+        <header>
+            Output Section
+        </header>
+        <textarea cols="40" rows="20" editable="false" readonly id="output"></textarea>
+
+        <input type="button" value="Open Output" id="toggleOutput"/>
+    </section>
+</body>
+
+</html>

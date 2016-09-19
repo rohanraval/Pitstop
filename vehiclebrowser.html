@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Vehicle Browser | Pitstop</title>
+    <link rel="stylesheet" type="text/css" href="site.css" />
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="vehiclebrowser.js"></script>
+</head>
+
+<body>
+    <!-- Main Header div (inclues logo, navbar, and cover image) -->
+    <div id="mainHeader">
+        <a href="home.html" title="home" id="logo">
+            <img src="images/logoimg.png" />
+        </a>
+
+        <div id=nav>
+            <ul id="navUL">
+              <li><a id="a_home" href="home.html">HOME</a></li>
+              <li><a id="a_vb" href="vehiclebrowser.html" class="active">VEHICLE BROWSER</a></li>
+              <li><a id="a_about" href="about.html">ABOUT</a></li>
+              <li><a id="a_contactus" href="contactus.html">CONTACT US</a></li>
+            </ul>
+        </div>
+
+        <div id="coverImageDiv">
+            <h1>PITSTOP</h1>
+            <p>Find the right car for you.</p>
+        </div>
+
+    </div>
+
+    <!-- INPUT DIV -->
+    <div id="inputDiv">
+        <h2>Vehicle Browser</h2>
+        <p>
+            Welcome! Here you can take a look at our vast collection of vehicles.
+            Please select a make and model from the dropdown menus below to view
+            more details about the car.
+        </p>
+        <form action="" id="inputForm">
+            <label>Car Type:</label>
+            <select id="typeDD" style="width:200px">
+                <option disabled selected value="defaultType"> select type </option>
+            </select>
+
+            <label>Car Model:</label>
+            <select id="modelDD" style="width:200px">
+                <option disabled selected value="defaultModel"> select model </option>
+            </select><br /><br />
+            <input type="button" value="Submit" id="button" />
+        </form>
+    </div>
+
+    <!-- OUTPUT DIV -->
+    <div id="outputDiv">
+        <table id = "carTable"></table>
+        <img id = "carImage"/>
+    </div>
+
+    </div>
+
+</body>
+
+</html>
