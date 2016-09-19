@@ -1,8 +1,6 @@
 # Pitstop
+
 Front-end web application, designed as part of an internship at Revature.
-
-# *Pitstop*
-
 **Pitstop** is a prototype for a car dealership.
 
 ## User Stories
@@ -10,7 +8,7 @@ Front-end web application, designed as part of an internship at Revature.
 The following functionality and features are complete:
 * [x] Elegant home page where user is introduced to the website
 * [x] Vehicle Browser page where user can browse through the available cars
-*     [x] extensive use of Javascript to facilitate most functionalities here
+    * [x] extensive use of Javascript to facilitate most functionalities here
 *     [x] implemented using JSON objects and retrieving with AJAX
 *     [x] dropdown menus for easy selection
 *     [x] interactive interface with clear and detailed information about the cars
